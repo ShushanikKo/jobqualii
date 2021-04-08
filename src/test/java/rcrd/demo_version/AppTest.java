@@ -1,5 +1,7 @@
 package rcrd.demo_version;
 
+import org.openqa.selenium.JavascriptExecutor;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -18,6 +20,8 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+        JavascriptExecutor js = (JavascriptExecutor) driver;  
+        
     }
 
     /**
